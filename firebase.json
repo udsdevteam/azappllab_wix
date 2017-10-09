@@ -1,0 +1,15 @@
+{
+    "hosting": {
+        "public": "", // 페이지가 들어 있는 폴더명
+        "ignore": [
+            "firebase.json",
+            "doc/.*",
+            ".editorconfig",
+            ".gitignore"
+        ],
+        "rewrites": [{
+            "source": "**",   // 페이지 주소
+            "destination": "/index.html"
+        }]
+    }
+}
